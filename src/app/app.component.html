@@ -1,0 +1,10 @@
+<p-fileUpload
+  id="fileInput"
+  (onSelect)="onBasicUpload($event)"
+  [showUploadButton]="false"
+  [showCancelButton]="false"
+  maxFileSize="2000000"
+></p-fileUpload>
+<button type="button" style="margin: 5px;" (click)="upload(form1)">
+  <em icon="fa fa-save"></em> Guardar
+</button>
